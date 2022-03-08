@@ -92,8 +92,7 @@ These endpoints will be used to configure your Elyra metadata runtime with the
 command below:
 
 ```bash
-elyra-metadata install runtimes --replace=true \
-       --schema_name=kfp \
+elyra-metadata install runtimes --schema_name=kfp \
        --name=kfp-local \
        --display_name="Kubeflow Pipeline (local)" \
        --api_endpoint=http://localhost:31380/pipeline \
